@@ -1,7 +1,7 @@
 from google import genai
 import os
 from dotenv import load_dotenv
-from retriever1 import get_relevant_context
+from retriever import get_relevant_context
 
 load_dotenv()
 
