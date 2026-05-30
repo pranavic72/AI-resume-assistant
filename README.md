@@ -47,6 +47,7 @@ resume-assistant/
 ├── .env             # API keys (not committed)
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## 🧠 How It Works
