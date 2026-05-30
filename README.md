@@ -49,58 +49,6 @@ resume-assistant/
 └── README.md
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/resume-assistant.git
-cd resume-assistant
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Set up your API key
-
-Create a `.env` file in the root directory:
-
-```
-GOOGLE_API_KEY=your_google_api_key_here
-```
-
-Get your free API key at [Google AI Studio](https://aistudio.google.com/app/apikey).
-
-### 4. Run the app
-
-```bash
-# Full app with both modes
-streamlit run modes.py
-
-# Or recruiter-only version
-streamlit run app.py
-```
-
----
-
-## 📦 Requirements
-
-Create a `requirements.txt` with:
-
-```
-streamlit
-google-genai
-chromadb
-pypdf2
-python-docx
-python-dotenv
-```
-
----
-
 ## 🧠 How It Works
 
 1. **Upload** — Resume files (PDF or DOCX) are parsed and split into 500-character chunks
@@ -114,18 +62,7 @@ python-dotenv
 ## ⚠️ Important Notes
 
 - The ChromaDB vector store is **in-memory** — data is cleared when the app restarts. Uploaded files need to be re-added each session.
-- Never commit your `.env` file. Add it to `.gitignore`.
 - The app currently uses `PyPDF2` for PDF extraction, which may struggle with scanned/image-based PDFs.
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Persistent vector storage (ChromaDB on disk)
-- [ ] Support for more file types (TXT, LinkedIn PDF exports)
-- [ ] Candidate ranking / scoring table
-- [ ] Export comparison report as PDF
-- [ ] Better chunking strategy (semantic / paragraph-aware)
 
 ---
 
