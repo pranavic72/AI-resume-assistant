@@ -9,7 +9,7 @@ An AI-powered resume analysis tool built with Streamlit. Upload candidate resume
 <!-- Add a short screen recording or GIF here -->
 ![Demo Video](demo.gif)
 
-🔗 **Live App:** [Open on Streamlit Cloud](https://ai-resume-assistant-demo.streamlit.app/) ← *Replace with your deployed URL*
+🔗 **Live App:** [Open on Streamlit Cloud](https://ai-resume-assistant-demo.streamlit.app/) 
 
 ---
 
